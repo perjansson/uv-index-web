@@ -10,10 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^1.2.5",
-    "koa-send": "^3.3.0"
+    "koa-send": "^3.3.0",
+    "nodemon": "^1.11.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
     "standard": "^8.6.0"
   }
 }

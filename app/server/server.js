@@ -9,4 +9,6 @@ app.use(function *() {
   yield send(this, this.path, { root })
 })
 
-app.listen(8080)
+const port = process.env.PORT || 8080
+console.log(`Good stuff is happening on port: ${port}`)
+app.listen(port)
