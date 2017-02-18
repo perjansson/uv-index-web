@@ -47350,7 +47350,7 @@
 	
 	
 	// module
-	exports.push([module.id, "* {\n  font-family: 'Titillium Web', sans-serif; }\n\nbody {\n  margin: 0; }\n\n.page {\n  background: url(" + __webpack_require__(93) + ") no-repeat center center fixed;\n  background-size: cover;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-pack: center;\n      justify-content: center;\n  height: 100vh; }\n\nh1 {\n  font-size: 72px;\n  margin-top: 40px;\n  color: #ffffff;\n  opacity: 0.6;\n  text-shadow: 0px 0px 10px #ffffff;\n  animation-delay: 0.3s; }\n", ""]);
+	exports.push([module.id, "* {\n  font-family: 'Titillium Web', sans-serif; }\n\nbody {\n  margin: 0; }\n\n.page {\n  background: url(" + __webpack_require__(93) + ") no-repeat center center fixed;\n  background-size: cover;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-pack: center;\n      justify-content: center;\n  height: 100vh; }\n\nh1 {\n  font-size: 36px;\n  margin-top: 40px;\n  color: #ffffff;\n  opacity: 0.6;\n  text-shadow: 0px 0px 10px #ffffff;\n  animation-delay: 0.3s; }\n  @media (min-width: 600px) and (max-width: 991px) {\n    h1 {\n      font-size: 54px; } }\n  @media (min-width: 992px) {\n    h1 {\n      font-size: 72px; } }\n", ""]);
 	
 	// exports
 

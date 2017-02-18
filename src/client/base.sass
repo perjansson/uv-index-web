@@ -1,9 +1,27 @@
 $headerColor: #ffffff
 $shadowColor: #ffffff
 
+=pageTitleFontSize
+  font-size: 36px
+  @include tablet
+    font-size: 54px
+  @include desktop
+    font-size: 72px
+
 =pageTitle
-  font-size: 72px
+  +pageTitleFontSize
   margin-top: 40px
   color: $headerColor
   opacity: 0.6
   text-shadow: 0px 0px 10px $shadowColor
+
+$tablet-width: 600px
+$desktop-width: 992px
+
+=tablet
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px})
+    @content
+
+=desktop
+  @media (min-width: #{$desktop-width})
+    @content
