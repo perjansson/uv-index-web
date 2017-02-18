@@ -1,5 +1,7 @@
 import {Component} from '@angular/core'
 
+import './app.component.sass'
+
 export class AppComponent {
   constructor () {}
 }
@@ -7,6 +9,6 @@ export class AppComponent {
 AppComponent.annotations = [
   new Component({
     selector: 'app-root',
-    template: '<h1>UV Index</h1>'
+    templateUrl: 'src/client/app.component.html'
   })
 ]

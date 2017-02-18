@@ -5,6 +5,7 @@ const path = require('path')
 
 const app = koa()
 
+app.use(serve(path.join(__dirname, '/')))
 app.use(serve(path.join(__dirname, 'public')))
 
 app.use(function *() {
